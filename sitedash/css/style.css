@@ -1,0 +1,61 @@
+body{
+    background: rgb(248, 248, 248);
+}
+
+.navbar{
+    background: transparent linear-gradient(268deg, #10AD2E 0%, #07B88A 48%, #00C1D8 100%) 0% 0% no-repeat padding-box;
+    
+}
+
+.navbar-brand img{
+    height: 70px;
+    margin-left: 6vw;
+    
+}
+
+main.container-fluid{
+    width: 88% !important;
+}
+
+.title-page{
+    padding: 20px 0px 0px 15px;
+    color: rgb(63, 63, 63);
+}
+
+.indicador-box{
+    padding: 10px;
+}
+
+.indicador{
+    background-color: #fff;
+    border-radius: 10px;
+    min-height: 400px;
+    box-shadow: 3px 3px 15px #00000012;
+    padding: 15px;
+}
+
+
+footer.container-fluid{
+    padding: 0px 20px 0px 0px;
+}
+
+.fiapinho-box{
+    overflow: hidden;
+}
+
+.fiapinho{
+    margin-left: -50px;
+    margin-bottom: -100px;
+    opacity: 0.5;
+}
+
+.logo-gp{
+    height: 100px;
+    width: auto;
+}
+
+.logo-prodam{
+    height: 40px;
+    width: auto;
+    margin-left: 40px;
+}
