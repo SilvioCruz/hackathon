@@ -1,0 +1,14 @@
+version: '3'
+services:
+    proxy:
+        image: hack2020/nginx
+        build:
+            context: .
+        ports:
+            - "50000:80"
+        networks:
+            - hack-nasnuvens-2020
+            
+networks:
+    hack-nasnuvens-2020:
+        driver: bridge
